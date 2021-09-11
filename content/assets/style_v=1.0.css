@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding-top: 10px;
+    width: 100%;
+    font-family: 'Noto Sans', arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    width: inherit;
+    height: 70px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 10px;
+    color:black;
+}
+nav .nav-right-section .option-main{
+    background-image: url('/content/img_Alberto/Engranaje_nav.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+
+nav .nav-right-section .menu-all{
+    background-image: url('/content/img_Alberto/Wafle_nav.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    margin-left: 30px;
+}
+
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 30px;
+    
+}
+
+.nav-left-section {
+    width: 730px;
+    display: flex;
+    align-items: center;
+}
+
+.main-logo{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.main-logo img {
+    width: 100px;
+}
+
+.main-input {
+    width: 530px;
+}
+
+.main-input-container{
+    font-size: 20px;
+    width: 650px;
+    height: 42px;    
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.name-container {
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.icons-container{
+    width: 80px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.icons-container img {
+    height: 20px;
+    cursor: pointer;
+}
+
+.main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+
+/*  */
+
+.second-nav {
+    width: inherit;
+    height: 56px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.second-nav-container {
+    width: 700px;
+    height: inherit;
+    display: flex;
+    justify-content: left;
+    
+}
+.container-name {
+    width: 100px;
+    height: inherit;
+}
+.name {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+.name a{
+    color: #5f6368;
+    font-family: 'Noto Sans', arial, sans-serif;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.name .enable-name{
+    color: #1a73e8;
+    font-family: 'Noto Sans', arial, sans-serif;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.name img {
+    height: 16px;
+}
+.selector-name-enable {
+    background-color: #1a73e8;
+    width: 100%;
+    height: 3px;
+}
+.selector-name-enable {
+    width: 100%;
+    height: 3px;
+}
+
+/*  */
+
+.random-results {
+    width: inherit;
+    height: 40px;
+}
+.random-results-container {
+    width: 700px;
+    height: inherit;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+.random-results-container a {
+    width: inherit;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #70757a;
+}
+
+/*  */
+
+.main-information {
+    display: flex;
+    margin-bottom: 8px;
+    padding-left: 200px;
+}
+.first-results-container {
+    width: 600px;
+    font-family: sans-serif;
+    color: #4d5156;
+}
+.information-Category {
+    font-size: 18px;
+}
+.information-card {
+    margin-bottom: 24px;
+    padding-right: 80px;
+}
+.laboral-time {
+    font-size: 12px;
+    margin: 0;
+    color: #202420;
+}
+.company-name {
+    font-size: 12px;
+    color: #4d5156;
+}
+.title-work {
+    font-size: 20px;
+    color: #1a0dab;
+    margin: 6px 0 6px 0;
+}
+.activities-work {
+    margin: 6px 0 6px 0;
+    font-size: 14px;
+    text-align: justify;
+    
+}
+.title-others-activities {
+    font-size: 13px;
+    margin: 6px 0 6px 0;
+}
+.title-others-activities span {
+    font-weight: bold;
+    color: #70757a;
+}
+/*  */
+.pagination-container {
+    text-align: center;
+}
+.pagination-container img {
+    height: 40px;
+}
+.pagination-container p {
+    margin: 0px 0 0 20px;
+    color: #4285f4;
+    font-size: 13px;
+    letter-spacing: 14px;
+}
+
+
+
+
+
+/*  */
+.Personal-information-container {
+    width: 460px;
+    height: 400px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    color: #4d5156;
+}
+
+.Personal-photo {
+    width: inherit;
+    height: 166px;
+    display: flex;
+    justify-content: space-between;    
+    border-bottom: 1px solid #ebebeb;
+}
+.Personal-photo img {
+    height: inherit;
+    border-radius: 0 10px 0 0;
+}
+.Personal-name-title {
+    padding-left: 16px;
+    color: #202124;
+}
+.Personal-name-title p{
+    margin: 40px 0 0 0;
+    font-size: 24px;
+}
+.Personal-name-title span{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #70757a;
+}
+.Personal-information-main p{
+    padding: 16px;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+.Personal-information p{
+
+    padding: 5px 16px 5px 16px;
+}
+.Personal-information span {
+    font-weight: bold;
+    color: #202124;
+}
+.update-information-container {
+    width: inherit;
+    padding-top: 5px;
+}
+.update-information {
+    border: 1px solid #ebebeb;
+    border-radius: 18px;
+    display: inline-block;
+    position: relative;
+}
+.update-information svg {
+    height: 18px;
+    line-height: 18px;
+    width: 18px;
+}
+.text-update {
+    color: #3C4043;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 8px 16px 8px 16px;
+}
+
+/*  */
+.footer-main {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 106px;
+    color: #70757a;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+.location-container {
+    border-bottom: 1px solid #dadce0;
+    padding-left: 200px;
+    padding-top: 8px;
+}
+.location {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.location-city {
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 13px;
+    padding-left: 16px;
+    border-left: 1px solid #dadce0;
+    font-weight: bold;
+
+}
+.external-links-container {
+    padding: 14px 0 22px 200px;
+}
+.external-links-container a {
+    margin-right: 26px;
+    color: #70757a;
+}
+
